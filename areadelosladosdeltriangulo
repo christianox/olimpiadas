@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, c;
+    float p, area;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    p= float {a+b+c}/2;
+    area= sqrt {p*{p-a}*{p-b}*{p-c}};
+    cout= sqrt << area >>  
+    
+    return 0;
+}
