@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float christian;
+    float porcentaje_impuesto;
+    cin >> porcentaje_impuesto;
+    float monto;
+    cin >>monto;
+    float resultado;
+    resultado= porcentaje_impuesto*monto;
+    cout << resultado;
+    
+    return 0;
+}
