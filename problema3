@@ -1,0 +1,10 @@
+#include<iostream.h>
+#include<conio.h>
+int a,b;
+void main()
+	{
+   cout<<"Ingrese un nummero:";
+   cin>>a;
+   cout<<"iingrese un numero:";
+   cin>>b;
+   imcompleto
