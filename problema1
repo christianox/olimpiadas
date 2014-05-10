@@ -1,19 +1,19 @@
 #include<iostream.h>
 #include<conio.h>
 int x,y;
-void main()
-	{
+int main()
+    {
     cout<<"ingrese un valor"<<endl;
     cin>>x;
     cout<<"ingrese un valor"<<endl;
     cin>>y;
     if(x>y)
       {
-		 cout<<"Es Mayor es:"<<x;
+cout<<"Es Mayor es:"<<x;
       }
     else
-		{
+{
        cout<<"Es Mayor es:"<<y;
-		}
+}
     getch();
    }
