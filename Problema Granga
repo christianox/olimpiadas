@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int c,p,nV,nG;
+    cout <<"Leer Cabezas: " << endl;
+    cin >> c;
+    cout << "Leer Patas: " << endl;
+    cin >> p;
+
+    nV =(p-2*c)/2;
+    cout <<"Numero de vacas: " << nV << endl;
+    nG =(4*c-p)/2;
+    cout << "Numero de Gallinas: " << nG << endl;
+    return 0;
+}
